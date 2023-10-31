@@ -14,7 +14,7 @@ Select hispanic,
                   End 
 from pop_race_2019;
 # remove SQL safe mode
-SET sql_safe_updates= 1;
+SET sql_safe_updates= 0;
 
 #UPdate table 
 UPDATE pop_race_2019
